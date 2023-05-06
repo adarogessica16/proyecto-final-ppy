@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="utf-8">
+      <title>MATCH</title>
+      <script src="script.js"></script>
+      <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="juego">
+      <div>
+        <h1 class="titulo">¡Entrena tu memoria jugando! </h1>
+        <h2>Elige un nivel para comenzar...</h2>
+      </div>
+       <h3>Logrado: <span id="resultado"> 0 aciertos</span></h3>
+       <div class="contenedor">
+         <div id="grid">
+         </div>
+         <button class="boton" id="Facil">Nivel Facil</button> 
+         <button class="boton" id="Intermedio">Nivel Intermedio</button> 
+         <button class="boton" id="Dificil">Nivel Dificil</button> 
+         <button  class="botones" id="inicio">Iniciar juego</button>
+         <button  class="botones" id="reiniciar">Reiniciar juego</button>
+        </div>
+    </div>
+
+  <div id="INFORMACION">
+    
+    <div id="modal-beneficios" class="modal">
+      <div class="contenido">
+        <span class="cerrar">&times;</span>
+        <h1 class="titulo">Algunos beneficios </h1>
+        <ul>
+          <li>Permiten estimular la memoria visual de los usuarios adquiriendo mejores habilidades para trabajar la memoria a corto plazo</li>
+          <li>Nos permite identificar y reconocer semejanzas y diferencias en un contexto determinado.</li>
+          <li>Es un complemento ideal para mejorar el desarrollo cognitivo y ampliar nuestras habilidades de memoria.</li>
+        </ul>
+      </div>
+    </div>
+    <div id="modal-ayuda" class="modal">
+      <div class="contenido">
+        <span class="cerrar">&times;</span>
+        <h2 class="titulo">Modo de juego</h2>
+        <p>Las imágenes se barajan y se colocan
+           boca abajo en la pantalla. El jugador tiene que encontrar dos elementos idénticos 
+           para formar un par. Si las cartas descubiertas no son un par el juego continúa hasta que 
+           todas las parejas se descubren.</p>
+      </div>
+    </div>
+    <button class="botones" id="ayuda">¿Como se juega? </button>
+    <button class="botones" id="informacion">Beneficios </button>
+  </div> 
+  </body>
+</html>
