@@ -1,0 +1,141 @@
+body {
+    text-align: center;
+    background-color: white;
+    font-family: "Raleway", sans-serif;
+
+  
+}
+  #juego{
+    background-image: url(imagenes/principal.jpg);
+    width:  70%;
+    height: 100%;
+    float: right;
+    position: absolute;
+   
+  }
+  #INFORMACION{
+    background-image: url(imagenes/avengers.jpg);
+    border: #e02306;
+    width: 30%;
+    height: 100%;
+    left: 70%;
+    position: absolute;
+    vertical-align: top;
+    
+  }
+
+
+  .titulo {
+    color:  #f75c44;
+    text-shadow: -3px 3px #ffffff, -3px -3px #ffffff, 3px -3px #ffffff, 3px 3px #f3f3f2, 6px 6px #e5e9e9;
+    font-weight: 700;
+    font-size: 3.5em;
+    margin-bottom: 0.5em;
+  }
+  h2{
+    display: block;
+    color:  #0f0f0f;
+    text-shadow: -3px 3px #ffffff, -3px -3px #fdf5f5, 3px -3px #f6f3f3, 3px 3px #eeecec, 6px 6px #f5f3f2;
+    font-weight: 700;
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+  }
+  h3{
+
+    display: none;
+    color:  #171110;
+  }
+  
+
+  .contenedor {
+    
+    padding: 2em 10%;
+    width: 80%;
+  }
+
+  #grid {
+  
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    grid-gap: 1em;
+    width: 80%;
+    height: 80%;
+    justify-items: center;
+    align-items: center;
+    padding: 3px;
+   
+  }
+  .imagen {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+  }
+
+  .imagen:hover {
+    transform: scale(1.05);
+  }
+
+  .boton{
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 35px;
+    background-color: rgb(220, 15, 15);
+    color: #fbf1f1;
+    border: none;
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+  .botones{
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: rgb(220, 15, 15);
+    color: #fbf1f1;
+    border: none;
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+
+  button:hover{
+    background-color: rgb(26, 18, 18);
+    color: rgb(247, 245, 250);
+  }
+  button:active {
+    transform: scale(0.95);
+  }
+  .modal {
+    display: none; 
+    position: fixed;
+    top: 50%;
+    width: 50%; 
+    height: 50%; 
+    right: 50px; 
+    transform: translate(0, -60%);
+    overflow: auto; /* permitir desplazamiento */
+    background-color: rgba(115, 170, 224, 0.5); /* fondo con transparencia */
+  }
+  /* Estilo para el contenido del modal */
+.contenido {
+  background-color: #fefefe;
+  margin: 10% auto; /* centrar verticalmente y dejar un espacio desde arriba */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* ancho del contenido del modal */
+}
+.cerrar {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.cerrar:hover,
+.cerrar:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
