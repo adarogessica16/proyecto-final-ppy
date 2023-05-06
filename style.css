@@ -6,7 +6,7 @@ body {
   
 }
   #juego{
-    background-image: url(imagenes/principal.jpg);
+    background-image: url(Fondos/principal.jpg);
     width:  70%;
     height: 100%;
     float: right;
@@ -14,7 +14,7 @@ body {
    
   }
   #INFORMACION{
-    background-image: url(imagenes/avengers.jpg);
+    background-image: url(Fondos/avengers.jpg);
     border: #e02306;
     width: 30%;
     height: 100%;

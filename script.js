@@ -115,7 +115,7 @@ const tarjeta = document.createElement("img");
 //seteamos la imagen de patron por defecto
 tarjeta.setAttribute(
   "src",
-  "imagenes/foto.png"
+  "Fondos/foto.png"
 );
 tarjeta.setAttribute("data-index", i);
 
@@ -148,11 +148,11 @@ if (primeraTarjetaSeleccionadaIndex == segundaTarjetaSeleccionadaIndex) {
     //ponemos de vuelva a ambas la imagen del patron por defecto
     listaTarjetas[primeraTarjetaSeleccionadaIndex].setAttribute(
       "src",
-      "imagenes/foto.png"
+      "Fondos/foto.png"
     );
     listaTarjetas[segundaTarjetaSeleccionadaIndex].setAttribute(
       "src",
-      "imagenes/foto.png"
+      "Fondos/foto.png"
     );
   }else if (listaTarjetas[primeraTarjetaSeleccionadaIndex].name === listaTarjetas[segundaTarjetaSeleccionadaIndex].name) {
     //el atributo "name" guarda el nombre de la ficha
@@ -160,11 +160,11 @@ if (primeraTarjetaSeleccionadaIndex == segundaTarjetaSeleccionadaIndex) {
     //cambiar la imagen por la del patron de finalizacion
     listaTarjetas[primeraTarjetaSeleccionadaIndex].setAttribute(
       "src",
-      "imagenes/par.jpg"
+      "Fondos/par.jpg"
     );
     listaTarjetas[segundaTarjetaSeleccionadaIndex].setAttribute(
       "src",
-      "imagenes/par.jpg"
+      "Fondos/par.jpg"
     );
     //evitamos que se pueda volver a hacer click en las mismas
     listaTarjetas[primeraTarjetaSeleccionadaIndex].removeEventListener("click", voltearTarjeta);
@@ -173,11 +173,11 @@ if (primeraTarjetaSeleccionadaIndex == segundaTarjetaSeleccionadaIndex) {
 }else {
         listaTarjetas[primeraTarjetaSeleccionadaIndex].setAttribute(
           "src",
-          "imagenes/foto.png"
+          "Fondos/foto.png"
         );
         listaTarjetas[segundaTarjetaSeleccionadaIndex].setAttribute(
           "src",
-          "imagenes/foto.png"
+          "Fondos/foto.png"
         );
   }
  
